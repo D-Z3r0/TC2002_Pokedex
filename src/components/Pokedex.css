@@ -1,0 +1,14 @@
+.Pokedex{
+    background-color: #352FEA;
+    min-height: 400px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+.Busqueda{
+    width: 100%;
+}
+.Resultado{
+    width: 50%;
+}
