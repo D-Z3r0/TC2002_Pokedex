@@ -1,5 +1,75 @@
 .Name {
     font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255,215,0); /* Color del relleno azul */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0cm;
+    margin: 20px 0;
+    -webkit-text-stroke: 3px rgb(38, 137, 250); /* Contorno amarillo */
+    text-stroke: 3px rgb(38, 137, 250); /* Contorno amarillo */
+}
+
+.Image {
+    width: 50%;
+}
+
+/* Estilo para las pestañas */
+.MuiTabs-root {
+    background-color: #333;
+}
+
+.MuiTab-root {
+    color: white;
+    &.Mui-selected {
+        color: #f0a500;
+    }
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #D3D3D3;
+    color: #333;
+    cursor: pointer !important;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para las celdas en hover */
+tr:hover {
+    background-color: #f0f0f0 !important;
+}
+
+/* Estilo para el contenedor de la tabla con barra de desplazamiento */
+.table-container {
+    max-height: 300px; /* Ajusta esta altura según tus necesidades */
+    overflow-y: auto;
+}
+
+/* Agregar un scroll si el contenido es demasiado largo */
+tbody {
+    /* Deja esto sin cambios, ya que se maneja mediante la clase .table-container */
+    /* max-height: 100px !important; */
+    /* overflow-y: auto !important; */
+}
+
+/* Clase adicional para tablas con scroll */
+.with-scroll {
+    max-height: 300px; /* Ajusta esta altura según tus necesidades */
+    overflow-y: auto;
+}
     color: black;
     margin-left: auto;
     margin-right: auto;
