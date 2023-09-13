@@ -43,7 +43,6 @@ function PokemonInfo(props: PokemonInfoProps) {
     return (
         <div className="Contenedor">
             <h1 className="Name">{props.pokemon.name}</h1>
-            <img className="Image" src={props.pokemon.sprites.other["official-artwork"].front_default} alt={props.pokemon.name} />
             <div className="Interfaz">
                 <img className="Image" src={props.pokemon.sprites.other["official-artwork"].front_default}></img>
             </div>
