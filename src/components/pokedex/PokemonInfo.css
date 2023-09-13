@@ -70,3 +70,32 @@ tbody {
     max-height: 300px; /* Ajusta esta altura según tus necesidades */
     overflow-y: auto;
 }
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Image{
+    background-color: black;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Interfaz{
+    background-color: darkturquoise;
+    border-radius: 15px 15px 15px 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+.Contenedor{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Cont{
+    margin: 0 auto;
+}

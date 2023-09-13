@@ -7,6 +7,8 @@
     height: 100px !important;
     border-radius: 20% !important;
     background-color: #0074d9 !important;
+    border-radius: 50% !important;
+    background-color: !important;
     text-align: center !important;
     line-height: 100px !important;
     cursor: pointer !important;
@@ -52,3 +54,18 @@
 
 
 
+.Button1{
+    color:white!important;
+    font-size: 30px!important;
+}
+
+
+.Display{
+    margin:30px;
+    margin-top:20px;
+    padding:15px;
+    background-color:#ccc;
+    border-color:black;
+    border-width: 2px;
+    border: 2px solid black;
+}
