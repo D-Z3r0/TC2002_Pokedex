@@ -7,7 +7,7 @@
     height: 100px !important;
     border-radius: 20% !important;
     background-color: #0074d9 !important;
-    border-radius: 50% !important;
+    border-radius: 20px !important;
     background-color: !important;
     text-align: center !important;
     line-height: 100px !important;
@@ -21,7 +21,7 @@
     font-weight: 600 !important;
     background-color: rgb(255,215,0) !important; /* Amarillo similar a Pokémon */
     color: #363535 !important; /* Texto blanco */
-    font-size: 22px !important;
+    font-size: 20px !important;
     text-align: center !important;
     border-radius: 80px !important; /* Bordes redondos para hacerlo redondo */
     cursor: pointer !important;
@@ -30,13 +30,11 @@
     align-items: center !important; /* Centrar verticalmente en el botón */
     justify-content: center !important; /* Centrar horizontalmente en el botón */
     border: 5px solid rgb(38, 137, 250) !important;
-    
-    
+    color: black !important;
 }
 
 .contenedorbotones{
     padding-top: 75px;
-   
 }
 
 .Display {
@@ -47,25 +45,4 @@
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
     max-width: 600px; /* Ancho máximo para evitar que sea demasiado ancho */
-}
-
-
-
-
-
-
-.Button1{
-    color:white!important;
-    font-size: 30px!important;
-}
-
-
-.Display{
-    margin:30px;
-    margin-top:20px;
-    padding:15px;
-    background-color:#ccc;
-    border-color:black;
-    border-width: 2px;
-    border: 2px solid black;
 }
