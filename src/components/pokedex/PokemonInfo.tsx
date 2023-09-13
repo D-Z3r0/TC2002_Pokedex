@@ -13,12 +13,12 @@ function CustomTabPanel(props: TabPanelProps) {
 
     return (
         <div
+            className="Cont"
             role="tabpanel"
             hidden={value !== index}
             id={`simple-tabpanel-${index}`}
             aria-labelledby={`simple-tab-${index}`}
             {...other}
-            className="Cont"
         >
             {value === index && (
                 <Box sx={{ p: 3 }}>
