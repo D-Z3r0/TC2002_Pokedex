@@ -67,7 +67,7 @@ function Busqueda(props:BusquedaProps){
             </Grid>
 
             </div>
-            <div>
+            <div className = "contenedorbotones">
                 <Button variant="outlined" className="Button1" onClick={props.searchPokemon}>Buscar</Button>
                 <Button variant="outlined" className="Button1" onClick={clearBusqueda}>Borrar</Button>
             </div>
